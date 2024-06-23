@@ -1,0 +1,548 @@
+<Programmes>
+	<Programme>
+		<Channel>BBC1</Channel>
+		<Name>Breakfast</Name>
+		<Date>2024-06-21</Date>
+		<Time>06:00</Time>
+		<Description>Start your day with the latest news, weather and current affairs.</Description>
+	</Programme>
+	<Programme>
+		<Channel>ITV</Channel>
+		<Name>Good Morning Britain</Name>
+		<Date>2024-06-21</Date>
+		<Time>06:30</Time>
+		<Description>Wake up with the latest news, weather and topical discussions.</Description>
+	</Programme>
+	<Programme>
+		<Channel>Channel 4</Channel>
+		<Name>Countdown</Name>
+		<Date>2024-06-21</Date>
+		<Time>14:15</Time>
+		<Description>Classic game show where contestants race against the clock to solve word and number puzzles.</Description>
+	</Programme>
+	<Programme>
+		<Channel>BBC2</Channel>
+		<Name>Gardeners' World</Name>
+		<Date>2024-06-21</Date>
+		<Time>20:00</Time>
+		<Description>Monty Don and the team share gardening tips and explore beautiful gardens across the country.</Description>
+	</Programme>
+	<Programme>
+		<Channel>BBC4</Channel>
+		<Name>The Secret Life of Books</Name>
+		<Date>2024-06-21</Date>
+		<Time>21:00</Time>
+		<Description>Exploring the hidden histories and unexpected influences behind classic works of literature.</Description>
+	</Programme>
+	<Programme>
+		<Channel>BBC3</Channel>
+		<Name>RuPaul's Drag Race UK</Name>
+		<Date>2024-06-21</Date>
+		<Time>22:00</Time>
+		<Description>The search continues for the UK's next drag superstar with outrageous challenges and stunning performances.</Description>
+	</Programme>
+	<Programme>
+		<Channel>ITV</Channel>
+		<Name>Late Night News</Name>
+		<Date>2024-06-21</Date>
+		<Time>23:45</Time>
+		<Description>Catch up on the day's events with a comprehensive roundup of national and international news.</Description>
+	</Programme>
+	<Programme>
+		<Channel>BBC1</Channel>
+		<Name>Saturday Kitchen Live</Name>
+		<Date>2024-06-22</Date>
+		<Time>10:00</Time>
+		<Description>Celebrity chefs and special guests join for live cookery demonstrations and food-related chat.</Description>
+	</Programme>
+	<Programme>
+		<Channel>Channel 4</Channel>
+		<Name>Grand Designs</Name>
+		<Date>2024-06-22</Date>
+		<Time>15:30</Time>
+		<Description>Kevin McCloud follows ambitious builds as homeowners create their dream houses from the ground up.</Description>
+	</Programme>
+	<Programme>
+		<Channel>BBC2</Channel>
+		<Name>Strictly Come Dancing</Name>
+		<Date>2024-06-22</Date>
+		<Time>19:00</Time>
+		<Description>Celebrities pair up with professional dancers in this glittering ballroom dance competition.</Description>
+	</Programme>
+	<Programme>
+		<Channel>ITV</Channel>
+		<Name>Britain's Got Talent</Name>
+		<Date>2024-06-22</Date>
+		<Time>20:00</Time>
+		<Description>Talented performers from across the UK compete for a chance to perform at the Royal Variety Show.</Description>
+	</Programme>
+	<Programme>
+		<Channel>BBC4</Channel>
+		<Name>The Sky at Night</Name>
+		<Date>2024-06-22</Date>
+		<Time>22:30</Time>
+		<Description>Exploring the latest discoveries and theories in astronomy and space exploration.</Description>
+	</Programme>
+	<Programme>
+		<Channel>BBC1</Channel>
+		<Name>Countryfile</Name>
+		<Date>2024-06-23</Date>
+		<Time>18:00</Time>
+		<Description>Exploring rural issues and celebrating the beauty of the British countryside.</Description>
+	</Programme>
+	<Programme>
+		<Channel>Channel 4</Channel>
+		<Name>The Great British Bake Off</Name>
+		<Date>2024-06-23</Date>
+		<Time>20:00</Time>
+		<Description>Amateur bakers compete in a series of challenging baking tasks to be crowned the UK's Best Amateur Baker.</Description>
+	</Programme>
+	<Programme>
+		<Channel>BBC2</Channel>
+		<Name>Line of Duty</Name>
+		<Date>2024-06-23</Date>
+		<Time>21:00</Time>
+		<Description>Thrilling police drama following AC-12, a controversial police anti-corruption unit.</Description>
+	</Programme>
+	<Programme>
+		<Channel>ITV</Channel>
+		<Name>Who Wants to Be a Millionaire?</Name>
+		<Date>2024-06-23</Date>
+		<Time>21:15</Time>
+		<Description>Contestants answer increasingly difficult questions to win big cash prizes in this classic quiz show.</Description>
+	</Programme>
+	<Programme>
+		<Channel>BBC3</Channel>
+		<Name>Fleabag</Name>
+		<Date>2024-06-23</Date>
+		<Time>22:30</Time>
+		<Description>Award-winning comedy-drama following a dry-witted woman known as Fleabag as she navigates life in London.</Description>
+	</Programme>
+	<Programme>
+		<Channel>BBC1</Channel>
+		<Name>BBC News at Six</Name>
+		<Date>2024-06-24</Date>
+		<Time>18:00</Time>
+		<Description>Comprehensive coverage of the day's important national and international news stories.</Description>
+	</Programme>
+	<Programme>
+		<Channel>Channel 4</Channel>
+		<Name>Gogglebox</Name>
+		<Date>2024-06-24</Date>
+		<Time>19:00</Time>
+		<Description>Observing British households as they watch and react to the week's most talked-about TV shows.</Description>
+	</Programme>
+	<Programme>
+		<Channel>BBC2</Channel>
+		<Name>University Challenge</Name>
+		<Date>2024-06-24</Date>
+		<Time>20:30</Time>
+		<Description>Teams from universities across the UK compete in this long-running and challenging quiz show.</Description>
+	</Programme>
+	<Programme>
+		<Channel>ITV</Channel>
+		<Name>Love Island</Name>
+		<Date>2024-06-24</Date>
+		<Time>21:00</Time>
+		<Description>Reality dating show where singles live together in a villa, hoping to find romance and win a cash prize.</Description>
+	</Programme>
+	<Programme>
+		<Channel>BBC4</Channel>
+		<Name>The Secret History of Writing</Name>
+		<Date>2024-06-24</Date>
+		<Time>22:00</Time>
+		<Description>Exploring the origins and evolution of writing systems from ancient times to the digital age.</Description>
+	</Programme>
+	<Programme>
+		<Channel>BBC1</Channel>
+		<Name>EastEnders</Name>
+		<Date>2024-06-25</Date>
+		<Time>19:30</Time>
+		<Description>Long-running soap opera following the lives of residents in London's fictional East End borough of Walford.</Description>
+	</Programme>
+	<Programme>
+		<Channel>Channel 4</Channel>
+		<Name>24 Hours in A&amp;E</Name>
+		<Date>2024-06-25</Date>
+		<Time>20:00</Time>
+		<Description>Documenting life inside one of Britain's busiest A&amp;E departments, capturing dramatic and emotional stories.</Description>
+	</Programme>
+	<Programme>
+		<Channel>BBC2</Channel>
+		<Name>Only Connect</Name>
+		<Date>2024-06-25</Date>
+		<Time>20:30</Time>
+		<Description>Fiendishly difficult quiz show where teams compete to find connections between seemingly unrelated clues.</Description>
+	</Programme>
+	<Programme>
+		<Channel>ITV</Channel>
+		<Name>The Chase</Name>
+		<Date>2024-06-25</Date>
+		<Time>17:00</Time>
+		<Description>Quiz show where contestants face off against expert quizzers known as 'The Chasers' to win cash prizes.</Description>
+	</Programme>
+	<Programme>
+		<Channel>BBC3</Channel>
+		<Name>Killing Eve</Name>
+		<Date>2024-06-25</Date>
+		<Time>22:15</Time>
+		<Description>Thrilling drama series about a British intelligence investigator tasked with capturing a psychopathic assassin.</Description>
+	</Programme>
+	<Programme>
+		<Channel>BBC1</Channel>
+		<Name>The One Show</Name>
+		<Date>2024-06-26</Date>
+		<Time>19:00</Time>
+		<Description>Live magazine programme featuring topical stories and big-name studio guests.</Description>
+	</Programme>
+	<Programme>
+		<Channel>Channel 4</Channel>
+		<Name>First Dates</Name>
+		<Date>2024-06-26</Date>
+		<Time>20:00</Time>
+		<Description>Reality show following couples on their first dates at a restaurant in central London.</Description>
+	</Programme>
+	<Programme>
+		<Channel>BBC2</Channel>
+		<Name>QI</Name>
+		<Date>2024-06-26</Date>
+		<Time>21:00</Time>
+		<Description>Comedy panel show that rewards contestants for interesting answers to difficult questions.</Description>
+	</Programme>
+	<Programme>
+		<Channel>ITV</Channel>
+		<Name>Coronation Street</Name>
+		<Date>2024-06-26</Date>
+		<Time>19:30</Time>
+		<Description>Long-running soap opera following the lives of residents on a cobbled street in a fictional town in Greater Manchester.</Description>
+	</Programme>
+	<Programme>
+		<Channel>BBC4</Channel>
+		<Name>The Secret Life of the Zoo</Name>
+		<Date>2024-06-26</Date>
+		<Time>20:00</Time>
+		<Description>Behind-the-scenes look at the lives of the animals and keepers at Chester Zoo.</Description>
+	</Programme>
+	<Programme>
+		<Channel>BBC1</Channel>
+		<Name>Question Time</Name>
+		<Date>2024-06-27</Date>
+		<Time>22:45</Time>
+		<Description>Topical debate programme where a panel of politicians and public figures answer questions from the audience.</Description>
+	</Programme>
+	<Programme>
+		<Channel>Channel 4</Channel>
+		<Name>Travel Man: 48 Hours in...</Name>
+		<Date>2024-06-27</Date>
+		<Time>20:30</Time>
+		<Description>Comedian Richard Ayoade takes a celebrity guest on a whirlwind 48-hour tour of an international city.</Description>
+	</Programme>
+	<Programme>
+		<Channel>BBC2</Channel>
+		<Name>Mock the Week</Name>
+		<Date>2024-06-27</Date>
+		<Time>22:00</Time>
+		<Description>Comedy panel show that takes a satirical look at the week's news events.</Description>
+	</Programme>
+	<Programme>
+		<Channel>ITV</Channel>
+		<Name>The Martin Lewis Money Show</Name>
+		<Date>2024-06-27</Date>
+		<Time>20:00</Time>
+		<Description>Financial journalist Martin Lewis offers money-saving tips and consumer advice.</Description>
+	</Programme>
+	<Programme>
+		<Channel>BBC3</Channel>
+		<Name>Normal People</Name>
+		<Date>2024-06-27</Date>
+		<Time>21:15</Time>
+		<Description>Drama series following the complex relationship between Marianne and Connell from their school days to university.</Description>
+	</Programme>
+	<Programme>
+		<Channel>BBC1</Channel>
+		<Name>Have I Got News for You</Name>
+		<Date>2024-06-28</Date>
+		<Time>21:00</Time>
+		<Description>Long-running satirical news quiz featuring team captains Paul Merton and Ian Hislop.</Description>
+	</Programme>
+	<Programme>
+		<Channel>Channel 4</Channel>
+		<Name>8 Out of 10 Cats Does Countdown</Name>
+		<Date>2024-06-28</Date>
+		<Time>21:00</Time>
+		<Description>Comedy panel show meets classic quiz show in this popular mash-up.</Description>
+	</Programme>
+	<Programme>
+		<Channel>BBC2</Channel>
+		<Name>Later... with Jools Holland</Name>
+		<Date>2024-06-28</Date>
+		<Time>22:30</Time>
+		<Description>Live music show featuring performances from established and upcoming artists across various genres.</Description>
+	</Programme>
+	<Programme>
+		<Channel>ITV</Channel>
+		<Name>Tipping Point</Name>
+		<Date>2024-06-28</Date>
+		<Time>16:00</Time>
+		<Description>Game show where contestants answer questions to win counters which they use on a large coin pusher machine.</Description>
+	</Programme>
+	<Programme>
+		<Channel>BBC4</Channel>
+		<Name>Digging for Britain</Name>
+		<Date>2024-06-28</Date>
+		<Time>20:00</Time>
+		<Description>Professor Alice Roberts explores the year's most exciting archaeological finds from across the UK.</Description>
+	</Programme>
+	<Programme>
+		<Channel>BBC1</Channel>
+		<Name>Match of the Day</Name>
+		<Date>2024-06-29</Date>
+		<Time>22:30</Time>
+		<Description>Highlights and analysis of the day's Premier League football matches.</Description>
+	</Programme>
+	<Programme>
+		<Channel>Channel 4</Channel>
+		<Name>The Last Leg</Name>
+		<Date>2024-06-29</Date>
+		<Time>22:00</Time>
+		<Description>Comedy chat show that takes a satirical look at the week's news and events.</Description>
+	</Programme>
+	<Programme>
+		<Channel>BBC2</Channel>
+		<Name>The Great British Menu</Name>
+		<Date>2024-06-29</Date>
+		<Time>20:00</Time>
+		<Description>Top chefs compete to cook at a prestigious banquet, with a different theme each series.</Description>
+	</Programme>
+	<Programme>
+		<Channel>ITV</Channel>
+		<Name>The Masked Singer</Name>
+		<Date>2024-06-29</Date>
+		<Time>19:00</Time>
+		<Description>Celebrity singing contest where performers wear elaborate costumes to conceal their identities.</Description>
+	</Programme>
+	<Programme>
+		<Channel>BBC3</Channel>
+		<Name>This Country</Name>
+		<Date>2024-06-29</Date>
+		<Time>21:30</Time>
+		<Description>Mockumentary sitcom following the lives of young people in a small village in the Cotswolds.</Description>
+	</Programme>
+	<Programme>
+		<Channel>BBC1</Channel>
+		<Name>Antiques Roadshow</Name>
+		<Date>2024-06-30</Date>
+		<Time>19:00</Time>
+		<Description>Experts travel the UK to value antiques brought in by members of the public.</Description>
+	</Programme>
+	<Programme>
+		<Channel>BBC1</Channel>
+		<Name>The Lost City</Name>
+		<Date>2024-06-21</Date>
+		<Time>20:00</Time>
+		<Description>A reclusive romance novelist on a book tour with her cover model gets swept up in a kidnapping attempt that lands them both in a cutthroat jungle adventure.</Description>
+	</Programme>
+	<Programme>
+		<Channel>ITV</Channel>
+		<Name>Quantum of Solace</Name>
+		<Date>2024-06-21</Date>
+		<Time>21:30</Time>
+		<Description>James Bond sets out to stop a mysterious organization from eliminating a country's most valuable resource in this action-packed sequel.</Description>
+	</Programme>
+	<Programme>
+		<Channel>Channel 4</Channel>
+		<Name>The Grand Budapest Hotel</Name>
+		<Date>2024-06-22</Date>
+		<Time>19:15</Time>
+		<Description>The adventures of a legendary concierge at a famous European hotel between the wars, and the lobby boy who becomes his most trusted friend.</Description>
+	</Programme>
+	<Programme>
+		<Channel>BBC2</Channel>
+		<Name>Inception</Name>
+		<Date>2024-06-22</Date>
+		<Time>22:00</Time>
+		<Description>A thief who enters the dreams of others to steal secrets from their subconscious is given a chance to regain his old life in exchange for a task considered to be impossible: "inception".</Description>
+	</Programme>
+	<Programme>
+		<Channel>BBC3</Channel>
+		<Name>Juno</Name>
+		<Date>2024-06-23</Date>
+		<Time>20:30</Time>
+		<Description>Faced with an unplanned pregnancy, a young woman makes an unusual decision regarding her unborn child.</Description>
+	</Programme>
+	<Programme>
+		<Channel>BBC4</Channel>
+		<Name>The Artist</Name>
+		<Date>2024-06-23</Date>
+		<Time>21:45</Time>
+		<Description>A silent movie star meets a young dancer, but the arrival of talking pictures sends their careers in opposite directions.</Description>
+	</Programme>
+	<Programme>
+		<Channel>BBC1</Channel>
+		<Name>The Shape of Water</Name>
+		<Date>2024-06-24</Date>
+		<Time>22:15</Time>
+		<Description>At a top secret research facility in the 1960s, a lonely janitor forms a unique relationship with an amphibious creature that is being held in captivity.</Description>
+	</Programme>
+	<Programme>
+		<Channel>ITV</Channel>
+		<Name>Dunkirk</Name>
+		<Date>2024-06-24</Date>
+		<Time>20:00</Time>
+		<Description>Allied soldiers from Belgium, the British Empire, and France are surrounded by the German Army and evacuated during a fierce battle in World War II.</Description>
+	</Programme>
+	<Programme>
+		<Channel>Channel 4</Channel>
+		<Name>Lady Bird</Name>
+		<Date>2024-06-25</Date>
+		<Time>21:00</Time>
+		<Description>In 2002, an artistically inclined seventeen-year-old girl comes of age in Sacramento, California.</Description>
+	</Programme>
+	<Programme>
+		<Channel>BBC2</Channel>
+		<Name>The Favourite</Name>
+		<Date>2024-06-25</Date>
+		<Time>22:30</Time>
+		<Description>In early 18th century England, a frail Queen Anne occupies the throne and her close friend, Lady Sarah, governs the country in her stead. When a new servant, Abigail, arrives, her charm endears her to Sarah.</Description>
+	</Programme>
+	<Programme>
+		<Channel>BBC3</Channel>
+		<Name>Whiplash</Name>
+		<Date>2024-06-26</Date>
+		<Time>20:45</Time>
+		<Description>A promising young drummer enrolls at a cut-throat music conservatory where his dreams of greatness are mentored by an instructor who will stop at nothing to realize a student's potential.</Description>
+	</Programme>
+	<Programme>
+		<Channel>BBC4</Channel>
+		<Name>Moonlight</Name>
+		<Date>2024-06-26</Date>
+		<Time>22:00</Time>
+		<Description>A young African-American man grapples with his identity and sexuality while experiencing the everyday struggles of childhood, adolescence, and burgeoning adulthood.</Description>
+	</Programme>
+	<Programme>
+		<Channel>BBC1</Channel>
+		<Name>The King's Speech</Name>
+		<Date>2024-06-27</Date>
+		<Time>19:30</Time>
+		<Description>The story of King George VI, his impromptu ascension to the throne of the British Empire in 1936, and the speech therapist who helped the unsure monarch overcome his stammer.</Description>
+	</Programme>
+	<Programme>
+		<Channel>ITV</Channel>
+		<Name>La La Land</Name>
+		<Date>2024-06-27</Date>
+		<Time>21:15</Time>
+		<Description>While navigating their careers in Los Angeles, a pianist and an actress fall in love while attempting to reconcile their aspirations for the future.</Description>
+	</Programme>
+	<Programme>
+		<Channel>Channel 4</Channel>
+		<Name>Get Out</Name>
+		<Date>2024-06-28</Date>
+		<Time>22:45</Time>
+		<Description>A young African-American visits his white girlfriend's parents for the weekend, where his simmering uneasiness about their reception of him eventually reaches a boiling point.</Description>
+	</Programme>
+	<Programme>
+		<Channel>BBC2</Channel>
+		<Name>The Social Network</Name>
+		<Date>2024-06-28</Date>
+		<Time>20:00</Time>
+		<Description>As Harvard student Mark Zuckerberg creates the social networking site that would become known as Facebook, he is sued by the twins who claimed he stole their idea, and by the co-founder who was later squeezed out of the business.</Description>
+	</Programme>
+	<Programme>
+		<Channel>BBC3</Channel>
+		<Name>Boyhood</Name>
+		<Date>2024-06-29</Date>
+		<Time>19:00</Time>
+		<Description>The life of Mason, from early childhood to his arrival at college, filmed over 12 years using the same cast.</Description>
+	</Programme>
+	<Programme>
+		<Channel>BBC4</Channel>
+		<Name>The Grand Budapest Hotel</Name>
+		<Date>2024-06-29</Date>
+		<Time>21:30</Time>
+		<Description>A writer encounters the owner of an aging high-class hotel, who tells him of his early years serving as a lobby boy in the hotel's glorious years under an exceptional concierge.</Description>
+	</Programme>
+	<Programme>
+		<Channel>BBC1</Channel>
+		<Name>The Revenant</Name>
+		<Date>2024-06-30</Date>
+		<Time>20:15</Time>
+		<Description>A frontiersman on a fur trading expedition in the 1820s fights for survival after being mauled by a bear and left for dead by members of his own hunting team.</Description>
+	</Programme>
+	<Programme>
+		<Channel>ITV</Channel>
+		<Name>Interstellar</Name>
+		<Date>2024-06-30</Date>
+		<Time>21:45</Time>
+		<Description>A team of explorers travel through a wormhole in space in an attempt to ensure humanity's survival.</Description>
+	</Programme>
+	<Programme>
+		<Channel>Channel 4</Channel>
+		<Name>Parasite</Name>
+		<Date>2024-06-21</Date>
+		<Time>23:00</Time>
+		<Description>Greed and class discrimination threaten the newly formed symbiotic relationship between the wealthy Park family and the destitute Kim clan.</Description>
+	</Programme>
+	<Programme>
+		<Channel>BBC2</Channel>
+		<Name>The Departed</Name>
+		<Date>2024-06-22</Date>
+		<Time>21:30</Time>
+		<Description>An undercover cop and a mole in the police attempt to identify each other while infiltrating an Irish gang in South Boston.</Description>
+	</Programme>
+	<Programme>
+		<Channel>BBC3</Channel>
+		<Name>No Country for Old Men</Name>
+		<Date>2024-06-23</Date>
+		<Time>22:15</Time>
+		<Description>Violence and mayhem ensue after a hunter stumbles upon a drug deal gone wrong and more than two million dollars in cash near the Rio Grande.</Description>
+	</Programme>
+	<Programme>
+		<Channel>BBC4</Channel>
+		<Name>Eternal Sunshine of the Spotless Mind</Name>
+		<Date>2024-06-24</Date>
+		<Time>20:45</Time>
+		<Description>When their relationship turns sour, a couple undergoes a medical procedure to have each other erased from their memories.</Description>
+	</Programme>
+	<Programme>
+		<Channel>BBC1</Channel>
+		<Name>The Prestige</Name>
+		<Date>2024-06-25</Date>
+		<Time>21:00</Time>
+		<Description>After a tragic accident, two stage magicians engage in a battle to create the ultimate illusion while sacrificing everything they have to outwit each other.</Description>
+	</Programme>
+	<Programme>
+		<Channel>ITV</Channel>
+		<Name>There Will Be Blood</Name>
+		<Date>2024-06-26</Date>
+		<Time>22:30</Time>
+		<Description>A story of family, religion, hatred, oil and madness, focusing on a turn-of-the-century prospector in the early days of the business.</Description>
+	</Programme>
+	<Programme>
+		<Channel>Channel 4</Channel>
+		<Name>Pan's Labyrinth</Name>
+		<Date>2024-06-27</Date>
+		<Time>23:15</Time>
+		<Description>In the Falangist Spain of 1944, the bookish young stepdaughter of a sadistic army officer escapes into an eerie but captivating fantasy world.</Description>
+	</Programme>
+	<Programme>
+		<Channel>BBC2</Channel>
+		<Name>Memento</Name>
+		<Date>2024-06-28</Date>
+		<Time>22:00</Time>
+		<Description>A man with short-term memory loss attempts to track down his wife's murderer.</Description>
+	</Programme>
+	<Programme>
+		<Channel>BBC3</Channel>
+		<Name>The Lives of Others</Name>
+		<Date>2024-06-29</Date>
+		<Time>20:30</Time>
+		<Description>In 1984 East Berlin, an agent of the secret police, conducting surveillance on a writer and his lover, finds himself becoming increasingly absorbed by their lives.</Description>
+	</Programme>
+	<Programme>
+		<Channel>BBC4</Channel>
+		<Name>Amélie</Name>
+		<Date>2024-06-30</Date>
+		<Time>19:45</Time>
+		<Description>Amélie is an innocent and naive girl in Paris with her own sense of justice. She decides to help those around her and, along the way, discovers love.</Description>
+	</Programme>
+</Programmes>

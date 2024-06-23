@@ -1,0 +1,55 @@
+I would like you to generate some ficticious TV listings data for me.
+
+The data will be in XML format using the following tags:
+
+<Programmes>
+	<Programme>
+		<Channel>Channel Name</Channel>
+		<Name>Programme Name</Name>
+		<Date>YYYY-MM-DD</Date>
+		<Time>HH:MM</Time>
+		<Description>Programme Description</Description>
+	</Programme>
+<Programmes>
+
+Each programme is described by the contents of a pair of <Programme></Programme> tags.
+
+Valid values for Channel are: BBC1, BBC2, BBC3, BBC4, ITV, Channel 4.
+
+Here are some examples:
+
+<Programmes>
+	<Programme>
+		<Channel>BBC1</Channel>
+		<Name>The Night of the Hunter</Name>
+		<Date>2024-06-20</Date>
+		<Time>18:00</Time>
+		<Description>A film about the life of a hunter and his family who travel from location to location in search of food.</Description>
+	</Programme>
+	<Programme>
+		<Channel>BBC2</Channel>
+		<Name>Would I Lie to You?</Name>
+		<Date>2024-06-20</Date>
+		<Time>19:00</Time>
+		<Description>A comedy quiz in which contestants have to determine if the others are lying or telling the truth.</Description>
+	</Programme>
+	<Programme>
+		<Channel>BBC4</Channel>
+		<Name>Easter Island Origins</Name>
+		<Date>2024-06-20</Date>
+		<Time>19:00</Time>
+		<Description>Documentary exploring how new evidence is challenging everything we thought we knew about Easter Island and the nearly 900 giant stone statues scattered across this remote Pacific island. They are some of the most famous and mysterious monuments on the planet. Nearly 900 giant stone heads scattered across a remote island in the middle of the Pacific. Now, brand new evidence is challenging everything we thought we knew about Easter Island’s awe-inspiring statues – and those who made them. Drawing on the latest science, this authoritative documentary radically rewrites the story of Easter Island.</Description>
+	</Programme>
+	<Programme>
+		<Channel>BBC2</Channel>
+		<Name>Elsa the Lioness</Name>
+		<Date>2024-06-21</Date>
+		<Time>18:00</Time>
+		<Description>First transmitted in 1961, David Attenborough visits Joy and George Adamson in Kenya and meets Elsa the lioness and her cubs shortly before Elsa's death. First transmitted in 1961, David Attenborough travels to Meru National Park in Kenya to visit Joy and George Adamson and meet Elsa the lioness and her cubs shortly before Elsa's death.</Description>
+	<Programme>
+<Programmes>
+
+I would like you to generate data for about 70 programmes with dates ranging from 2024-06-21 to 2024-06-30
+and with starting times on the hour or at 15, 30 or 45 minutes past the hours.
+Make the programme names and descriptions as realistic as possible.
+The genres of some of the programmes should be film.
