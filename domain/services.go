@@ -17,5 +17,5 @@ type TvDbServices struct {
 }
 
 type TvDbSvc interface {
-	GetTvProgrammesXml(ctx context.Context, dateFrom string, dateTo string) (string, error)
+	GetTvProgrammesXml(ctx context.Context, dateFrom string, dateTo string) (string, int, error)
 }

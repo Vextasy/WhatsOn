@@ -30,17 +30,22 @@ func NewTvDbSvc(pathToTvDb string) domain.TvDbSvc {
 	return tvDbSvc{pathToTvDb: pathToTvDb}
 }
 
-// Return TV programs that are aired between the given dates as an XML string
-func (svc tvDbSvc) GetTvProgrammesXml(ctx context.Context, dateFrom string, dateTo string) (string, error) {
+// Return TV programs that are aired between the given dates as an XML string.
+// Also return a count of the number of programmes found.
+func (svc tvDbSvc) GetTvProgrammesXml(ctx context.Context, dateFrom string, dateTo string) (string, int, error) {
 	programmes, err := getTvProgrammes(svc.pathToTvDb, dateFrom, dateTo)
 	if err != nil {
-		return "", err
+		return "", 0, err
+	}
+	if len(programmes) == 0 {
+		return "", 0, nil
 	}
 	xmlbytes, err := xml.MarshalIndent(programmes, "", "  ")
 	if err != nil {
-		return "", err
+		return "", 0, err
 	}
-	return string(xmlbytes), err
+	wrap := func(s string) string { return "<Programmes>" + s + "</Programmes>" }
+	return wrap(string(xmlbytes)), len(programmes), err
 }
 
 // Get programmes from the tvdb xml file and return as a slice of TvProgramme.

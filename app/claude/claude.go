@@ -30,7 +30,7 @@ func getSuggestions(ctx context.Context, desire string, tvDbSvc domain.TvDbSvc) 
 	client := anthropic.NewClient(os.Getenv("ANTHROPIC_API_KEY"))
 	request := anthropic.MessagesRequest{
 		//Model:     anthropic.ModelClaude3Haiku20240307,
-		Model:     anthropic.ModelClaude3Sonnet20240229,
+		Model:     anthropic.ModelClaude3Dot5Sonnet20240620,
 		MaxTokens: 1024,
 		ToolChoice: &anthropic.ToolChoice{
 			Type: "auto",
@@ -112,11 +112,12 @@ func getSuggestions(ctx context.Context, desire string, tvDbSvc domain.TvDbSvc) 
 		if content.Type == anthropic.MessagesContentTypeToolUse {
 			toolUse = content.MessageContentToolUse
 			break
+		} else {
+			fmt.Println(*content.Text)
 		}
 	}
-	xmlUp := func(text string) ([]domain.Suggestion, error) {
+	xmlUp := func(xmlText string) ([]domain.Suggestion, error) {
 		container := SuggestionsContainer{}
-		xmlText := *resp.Content[0].Text
 		err := xml.Unmarshal([]byte(xmlText), &container)
 		if err != nil {
 			return nil, err
@@ -152,7 +153,10 @@ func getSuggestions(ctx context.Context, desire string, tvDbSvc domain.TvDbSvc) 
 	fmt.Printf("Using the tool date range: %s to %s\n", input.FromDate, input.ToDate)
 
 	// Call the tool to get TV programmes.
-	toolResults, err := tvDbSvc.GetTvProgrammesXml(ctx, input.FromDate, input.ToDate)
+	toolResults, nprogs, err := tvDbSvc.GetTvProgrammesXml(ctx, input.FromDate, input.ToDate)
+	if nprogs == 0 {
+		return []domain.Suggestion{}, nil
+	}
 	// Enqueue the tool results message.
 	request.Messages = append(request.Messages, anthropic.NewToolResultsMessage(toolUse.ID, string(toolResults), false))
 	// Call the Agent with the tool results.
