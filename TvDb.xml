@@ -540,9 +540,23 @@
 	</Programme>
 	<Programme>
 		<Channel>BBC4</Channel>
+		<Name>The Sky at Night</Name>
+		<Date>2024-06-29</Date>
+		<Time>22:30</Time>
+		<Description>Exploring the latest discoveries and theories in astronomy and space exploration.</Description>
+	</Programme>
+	<Programme>
+		<Channel>BBC4</Channel>
 		<Name>Amélie</Name>
 		<Date>2024-06-30</Date>
 		<Time>19:45</Time>
 		<Description>Amélie is an innocent and naive girl in Paris with her own sense of justice. She decides to help those around her and, along the way, discovers love.</Description>
+	</Programme>
+	<Programme>
+		<Channel>BBC4</Channel>
+		<Name>Digging for Britain</Name>
+		<Date>2024-07-05</Date>
+		<Time>20:00</Time>
+		<Description>Professor Alice Roberts explores the year's most exciting archaeological finds from across the UK.</Description>
 	</Programme>
 </Programmes>

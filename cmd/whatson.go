@@ -9,18 +9,20 @@ import (
 
 	"gitlab.com/vextasy/claude/whatson/app/claude"
 	"gitlab.com/vextasy/claude/whatson/app/tvdb"
+	"gitlab.com/vextasy/claude/whatson/domain"
 )
 
 func main() {
 	var desire = "I'm feeling lucky."
 	var descriptions = flag.Bool("d", false, "Show descriptions")
+	var verbose = flag.Bool("v", false, "Show thinking")
 	flag.Parse()
 	args := flag.Args()
 	if len(args) > 0 {
 		desire = strings.Join(args, " ")
 	}
 	tvDbServices := tvdb.NewServices("./TvDb.xml")
-	claude := claude.NewServices(tvDbServices.TvDb)
+	claude := claude.NewServices(*verbose, tvDbServices.TvDb)
 	suggestions, err := claude.Suggestion.GetSuggestions(context.Background(), desire)
 	if err != nil {
 		fmt.Println(err)
@@ -33,8 +35,12 @@ func main() {
 		fmt.Println("- "+weekday(s.Date)[0:3], s.Date, "at", s.Time+": "+s.Name, "on", s.Channel)
 	}
 	if *descriptions {
-		fmt.Println("\nDescriptions:")
+		uniqueSuggestions := make(map[string]domain.Suggestion)
 		for _, s := range suggestions {
+			uniqueSuggestions[s.Name] = s
+		}
+		fmt.Println("\nDescriptions:")
+		for _, s := range uniqueSuggestions {
 			fmt.Println("- "+s.Name, ":", s.Description)
 		}
 	}

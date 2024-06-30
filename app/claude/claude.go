@@ -15,18 +15,19 @@ import (
 )
 
 type suggestionSvc struct {
+	verbose bool
 	tvDbSvc domain.TvDbSvc
 }
 
-func NewSuggestionSvc(tvDbSvc domain.TvDbSvc) domain.SuggestionSvc {
-	return suggestionSvc{tvDbSvc: tvDbSvc}
+func NewSuggestionSvc(verbose bool, tvDbSvc domain.TvDbSvc) domain.SuggestionSvc {
+	return suggestionSvc{verbose: verbose, tvDbSvc: tvDbSvc}
 }
 
 func (c suggestionSvc) GetSuggestions(ctx context.Context, desire string) ([]domain.Suggestion, error) {
-	return getSuggestions(ctx, desire, c.tvDbSvc)
+	return getSuggestions(ctx, desire, c.verbose, c.tvDbSvc)
 }
 
-func getSuggestions(ctx context.Context, desire string, tvDbSvc domain.TvDbSvc) ([]domain.Suggestion, error) {
+func getSuggestions(ctx context.Context, desire string, verbose bool, tvDbSvc domain.TvDbSvc) ([]domain.Suggestion, error) {
 	client := anthropic.NewClient(os.Getenv("ANTHROPIC_API_KEY"))
 	request := anthropic.MessagesRequest{
 		//Model:     anthropic.ModelClaude3Haiku20240307,
@@ -113,7 +114,9 @@ func getSuggestions(ctx context.Context, desire string, tvDbSvc domain.TvDbSvc) 
 			toolUse = content.MessageContentToolUse
 			break
 		} else {
-			fmt.Println(*content.Text)
+			if verbose {
+				fmt.Printf("\n%s\n", *content.Text)
+			}
 		}
 	}
 	xmlUp := func(xmlText string) ([]domain.Suggestion, error) {
@@ -150,7 +153,9 @@ func getSuggestions(ctx context.Context, desire string, tvDbSvc domain.TvDbSvc) 
 	if input.ToDate == "" {
 		input.ToDate = input.FromDate
 	}
-	fmt.Printf("Using the tool date range: %s to %s\n", input.FromDate, input.ToDate)
+	if verbose {
+		fmt.Printf("\nUsing the tool date range: %s to %s\n", input.FromDate, input.ToDate)
+	}
 
 	// Call the tool to get TV programmes.
 	toolResults, nprogs, err := tvDbSvc.GetTvProgrammesXml(ctx, input.FromDate, input.ToDate)
