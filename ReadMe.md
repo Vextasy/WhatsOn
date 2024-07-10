@@ -1,4 +1,4 @@
-WhatsOn is a simple Go command line program to interact with the Claude API (using go-anthropic) to return a number of TV programme viewing suggestions given a statement of desire.
+What's On is a simple Go command line program to interact with the Claude API (using go-anthropic) to return a number of TV programme viewing suggestions given a statement of desire.
 The purpose of the program is to allow me to experiment with Claude embedding, its use of tools, and its XML input and output techniques.
 
 The program uses a local database of TV schedules which Claude requests access to through its 'tool' mechanism.
@@ -9,11 +9,11 @@ To avoid having to recreate the database daily, dates in the database are automa
 ./whatson [-d] [-v] Statement of desire ...
 ```
 
-The -d flag causes the program to follow the list of suggestions with a description of each program. Clause, being an AI, can of course make changes to those descriptions and this can be a way in which you can gain some insight into why it has made a suggestion.
+The -d flag causes the program to follow the list of suggestions with a description of each program. Claude, being an AI, can of course make changes to those descriptions and this can be a way in which you can gain some insight into why it has made a suggestion.
 
 For example:
 ```
-./whatson I would like watch programmes about archaeology that are on in the next couple of weeks.
+./whatson I would like to watch programmes about archaeology that are on in the next couple of weeks.
 
 - Sun 2024-07-07 at 20:00: Digging for Britain on BBC4
 - Sun 2024-07-14 at 20:00: Digging for Britain on BBC4
@@ -22,7 +22,7 @@ For example:
 An explanation of Claude's thinking can be viewed by providing the -v flag.
 
 ```
-./whatson -v I would like watch programmes about archaeology that are on in the next couple of weeks.
+./whatson -v I would like to watch programmes about archaeology that are on in the next couple of weeks.
 
 To provide appropriate TV programme suggestions about archaeology for the next couple of weeks, I'll need to use the get_tv_programmes function. Let's gather the necessary information:
 

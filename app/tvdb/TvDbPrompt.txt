@@ -1,4 +1,4 @@
-I would like you to generate some ficticious TV listings data for me.
+I would like you to generate some fictitious TV listings data for me.
 
 The data will be in XML format using the following tags:
 

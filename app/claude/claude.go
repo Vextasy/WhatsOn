@@ -30,7 +30,6 @@ func (c suggestionSvc) GetSuggestions(ctx context.Context, desire string) ([]dom
 func getSuggestions(ctx context.Context, desire string, verbose bool, tvDbSvc domain.TvDbSvc) ([]domain.Suggestion, error) {
 	client := anthropic.NewClient(os.Getenv("ANTHROPIC_API_KEY"))
 	request := anthropic.MessagesRequest{
-		//Model:     anthropic.ModelClaude3Haiku20240307,
 		Model:     anthropic.ModelClaude3Dot5Sonnet20240620,
 		MaxTokens: 1024,
 		ToolChoice: &anthropic.ToolChoice{
@@ -73,8 +72,7 @@ func getSuggestions(ctx context.Context, desire string, verbose bool, tvDbSvc do
 			}},
 		Messages: []anthropic.Message{
 			anthropic.NewUserTextMessage(`
-			You are given the following information about TV programmes enclosed between <Programmes></Programmes> tags:
-
+			You are given information about TV programmes enclosed between <Programmes></Programmes> tags.
 			The date today is ` + time.Now().Format("2006-01-02") + `, a ` + time.Now().Weekday().String() + `.
 			You are an expert at suggesting TV programmes.
 			The user would like to have some suggestions about what TV programmes to watch but has the following strict request:<Request>` + desire + `</Request>.
